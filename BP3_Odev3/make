@@ -1,0 +1,8 @@
+all: main.c chessLib.c
+	gcc  main.c compress.c -o Odev2
+
+example1: main.c
+	gcc main.c -o main -Wall -ansi -pedantic-errors
+
+example2: chessLib.c
+	gcc chessLib.c -o chessLib -Wall -ansi -pedantic-errors
